@@ -107,25 +107,12 @@
 
                 <div class="row">
                     <div class="large-12 columns">
-                        <form action="form.php" method="post">
-                            <div class="submission-box">
-                                <p>First Name</p><input type="text" name="fname" placeholder="Your first name" style="font-style: italic" />
-                                <p>Last Name</p><input type="text" name="lname" placeholder="Your last name" style="font-style: italic" />
-                                <p>Email</p><input type="text" name="email" placeholder="Your email" style="font-style: italic" />
-                                <p>Arist Name</p><input type="text" name="aname" placeholder="Stage/Arist name" style="font-style: italic" />
-                                <p>Genre</p>
-                                <select name="genre" class="genre-dropdown">
-                                    <option value="" disabled selected>Select</option>
-                                    <option value="house">House</option>
-                                    <option value="electronic">Electronic</option>
-                                    <option value="dubstep">Dubstep</option>
-                                    <option value="trap">Trap</option>
-                                </select>
-                                <p>Streaming Link</p><input type="text" placeholder="e.g. soundcloud .com/artist/track Please use SoundCloud!" style="font-style: italic" name="link" />
-                                <p>Links & About yourself</p><textarea type="text" placeholder="Your links and tell us about yourself" style="font-style: italic" name="about"></textarea>
-                                <button type="submit" name="contact_submit" value="Submit" class="button expanded">Submit</button>
-                            </div>
-                        </form>
+                        <form action="//formspree.io/kjorecs@email.com"
+      method="POST">
+    <input type="text" name="name">
+    <input type="email" name="_replyto">
+    <input type="submit" value="Send">
+</form> 
                     </div>
                 </div>
             </div>
