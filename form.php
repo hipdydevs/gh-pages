@@ -37,7 +37,7 @@
 		$message  = "First Name: $fname\r\n";
 		$message .= "Last Name: $lname\r\n";
 		$message .= "Arist Name: $aname\r\n";
-		$message .= "Arist Name: $aname\r\n";
+		$message .= "email: $email\r\n";
 		$message .= "Genre: $genre\r\n";
 		$message .= "Links: $link\r\n";
 		$message .= "About: \r\n$about";
@@ -52,7 +52,7 @@
 		$headers .= "X-MSMail-Priority: High\r\n\r\n";
 
 		//send mail to
-		mail($to, $subject, $message, $headers );
+		mail($to, $subject, $message, $headers);
 ?>
 
 <!-- Show success message after email sent -->
